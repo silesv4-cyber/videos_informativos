@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selecciona el Video</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: linear-gradient(135deg, #000, #222);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+    }
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      background: #444;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-size: 18px;
+      transition: background 0.3s, transform 0.2s;
+    }
+    a:hover {
+      background: #666;
+      transform: scale(1.05);
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecciona el video</h1>
+
+  <div class="btn-container">
+    <a href="femenino.html/">🎥 Video acerca del Condom Femenino</a>
+    <a href="maculino.html/">🎥 Video acerca del Condom Masculino</a>
+    <a href="general.html/">🎥 Video de Informacion General</a>
+  </div>
+
+  <footer>© 2025 Instant Replay by Tono</footer>
+</body>
+</html>
